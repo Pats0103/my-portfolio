@@ -5,13 +5,15 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaGithub,FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
+
 function Page() {
+
   return (
     <motion.div
      
       className=" flex justify-center transition-all duration-150"
     >
-    <section className="h-[650px] flex items-center justify-center mt-[100px]">
+    <section className="h-[650px] flex items-center justify-center mt-[60px]">
         <div className="antialiased grid gap-3 w-full lg:w-3/4 mx-auto">
             <h1 className="text-4xl font-bold text-center mb-4">About Me</h1>
 
@@ -47,7 +49,7 @@ function Page() {
                     <Image
                         src={img}
                         alt="pratik"
-                        className="rounded-lg "
+                        className="rounded-lg  shadow-2xl shadow-indigo-400/50 hover:shadow-indigo-400/70 transition-all duration-150"
                         width={200}
                         height={200}
                     />
