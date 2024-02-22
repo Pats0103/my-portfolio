@@ -23,8 +23,8 @@ function Page() {
                         BCA.
                     </p>
                     <p className="text-lg text-center md:text-left">
-                        I'm a passionate coder with a knack for problem-solving and
-                        turning complex ideas into clean, functional code. I'm
+                        I am a passionate coder with a knack for problem-solving and
+                        turning complex ideas into clean, functional code. Im
                         proficient in JavaScript, react, nodeJs, MongoDB and always
                         eager to tackle new challenges
                     </p>
