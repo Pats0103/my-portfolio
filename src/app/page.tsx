@@ -32,7 +32,7 @@ export default function Home() {
             className="animate-bounce text-4xl font-bold text-center mb-4"
             >
             👋
-              </span> Hi, I'm Pratik
+              </span> Hi, I&#39m Pratik
           </h1>
 
           <div className="container mx-auto px-4 md:px-8 lg:px-12 ">
