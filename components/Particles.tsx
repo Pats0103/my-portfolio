@@ -34,7 +34,7 @@ export const Bubbles = () => {
         {
             "particles": {
               "number": {
-                "value": 111,
+                "value": 20,
                 "density": {
                   "enable": true,
                   "value_area": 800
