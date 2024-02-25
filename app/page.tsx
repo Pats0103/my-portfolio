@@ -8,6 +8,8 @@ import Thumbnail1 from "@/public/thumbnail.png";
 import { poppins, kanit } from "./ui/font";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { TbLivePhoto } from "react-icons/tb";
+import { MdOutlineAlternateEmail } from "react-icons/md";
+import { FaGithub ,FaLinkedin} from "react-icons/fa";
 import { motion } from "framer-motion";
 import Link from "next/link";
 export default function Home() {
@@ -54,9 +56,20 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 2 }}
           >
-            <button className="border  p-2 px-4 text-sm md:text-xl">
+           <div className="flex gap-2 flex-wrap justify-center p-1 ">
+           <Link href={''} className="border  p-2 px-4 text-sm md:text-xl rounded-lg text-black bg-white">
               Resume &gt;
-            </button>
+            </Link>
+            <Link href={'https://github.com/Pats0103'} className=" border  p-2 px-4 text-sm md:text-xl rounded-lg text-black bg-white flex items-center gap-2">
+            <FaGithub />  Github 
+            </Link>
+            <Link href={'https://www.linkedin.com/in/pratik-dobariya/'} className="border  p-2 px-4 text-sm md:text-xl rounded-lg text-black bg-white flex items-center gap-2">
+            <FaLinkedin />  LikendIn 
+            </Link>
+            <Link href={'mailto:dobariyaompratik@gmail.com'} className="border  p-2 px-4 text-sm md:text-xl rounded-lg text-black bg-white flex items-center gap-2">
+            <MdOutlineAlternateEmail />  Email 
+            </Link>
+           </div>
           </motion.div>
         </div>
 
@@ -99,7 +112,7 @@ export default function Home() {
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }} // Final state of the animation
         transition={{ duration: 2 }} // Animation options
       >
-         <h1 className="text-2xl md:text-4xl text-center md:my-20 my-10">
+         <h1 className="text-2xl md:text-4xl text-center md:my-32 my-10">
         Projects
       </h1>
         <div className="w-full px-2  rounded-lg mx-2 flex justify-center ">
